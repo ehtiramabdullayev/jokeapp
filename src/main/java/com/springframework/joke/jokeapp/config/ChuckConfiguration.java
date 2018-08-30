@@ -8,12 +8,11 @@ import org.springframework.context.annotation.Configuration;
  * @author Ehtiram_Abdullayev on 8/30/2018
  * @project jokeapp
  */
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+//    @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
-
         return new ChuckNorrisQuotes();
     }
 }
